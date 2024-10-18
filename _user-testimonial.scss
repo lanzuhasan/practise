@@ -1,0 +1,32 @@
+@mixin user {
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    transition: all ease 0.5s;
+}
+@mixin quote {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff523b;
+}
+@mixin about-user {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+@mixin user-img {
+    width: 60px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+@mixin user-name {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #555;
+}
+@mixin hover {
+    transform: translateY(-10px);
+}

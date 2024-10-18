@@ -1,0 +1,41 @@
+@import "global";
+@import "form";
+.logo img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+form input.down {
+    margin-top: 15px;
+}
+.submit {
+    @include button;
+    display: inline;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(left, #ef017c 0%,#ff5db1 100%);
+}
+section p {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.twitter {
+    @include button;
+    margin-top: 0px;
+    background: #00AEEF;
+    
+    p {
+        @include social;
+    }
+    
+}
+.fb {
+    @include button;
+    background: #3A5897;
+    
+    p{
+        @include social;
+    }
+
+}

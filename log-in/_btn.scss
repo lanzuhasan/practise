@@ -1,0 +1,16 @@
+@mixin button {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+@mixin social {
+    font-size: 14px;
+    margin-left: 10px;
+}

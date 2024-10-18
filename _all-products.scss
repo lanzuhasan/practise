@@ -1,0 +1,35 @@
+.product-row {
+    margin: 60px 0;
+}
+.product-heading {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+}
+.product-select-2 {
+    text-align: right;
+}
+.product-row select {
+    box-shadow: none;
+}
+.product-row select:focus {
+    outline: none;
+}
+.pages {
+    margin: 0 auto 80px;
+}
+.pages span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    border: 1px solid #ff532f;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.pages span:hover {
+    background: #ff532f;
+    color: #fff;
+}
